@@ -15,6 +15,16 @@
 		A99B80F31C3500BA0034FC97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99B80F11C3500BA0034FC97 /* LaunchScreen.storyboard */; };
 		A99B80FE1C3500BA0034FC97 /* OpenGLES_StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99B80FD1C3500BA0034FC97 /* OpenGLES_StudyTests.m */; };
 		A99B81091C3500BA0034FC97 /* OpenGLES_StudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99B81081C3500BA0034FC97 /* OpenGLES_StudyUITests.m */; };
+		A99B81171C3500F20034FC97 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99B81161C3500F20034FC97 /* OpenGLES.framework */; };
+		A99B811A1C3502090034FC97 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = A99B81191C3502090034FC97 /* OpenGLView.m */; };
+		A99B811C1C3502280034FC97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99B811B1C3502280034FC97 /* QuartzCore.framework */; };
+		A99B811F1C3682420034FC97 /* LVApplicationShaderUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A99B811E1C3682420034FC97 /* LVApplicationShaderUtils.m */; };
+		A99B81241C3A4CF70034FC97 /* Simple.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = A99B81231C3A4CF70034FC97 /* Simple.vertsh */; };
+		A99B81261C3A4D0A0034FC97 /* Simple.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = A99B81251C3A4D0A0034FC97 /* Simple.fragsh */; };
+		A99B813A1C3A63400034FC97 /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A99B81311C3A63400034FC97 /* CC3Foundation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A99B813B1C3A63400034FC97 /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = A99B81331C3A63400034FC97 /* CC3GLMatrix.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A99B813C1C3A63400034FC97 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = A99B81341C3A63400034FC97 /* CC3Kazmath.c */; };
+		A99B813D1C3A63400034FC97 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = A99B81381C3A63400034FC97 /* CC3Math.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,24 @@
 		A99B81041C3500BA0034FC97 /* OpenGLES_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLES_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99B81081C3500BA0034FC97 /* OpenGLES_StudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLES_StudyUITests.m; sourceTree = "<group>"; };
 		A99B810A1C3500BA0034FC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99B81161C3500F20034FC97 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A99B81181C3502090034FC97 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLView.h; path = ../OpenGLView.h; sourceTree = "<group>"; };
+		A99B81191C3502090034FC97 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLView.m; path = ../OpenGLView.m; sourceTree = "<group>"; };
+		A99B811B1C3502280034FC97 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A99B811D1C3682420034FC97 /* LVApplicationShaderUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVApplicationShaderUtils.h; sourceTree = "<group>"; };
+		A99B811E1C3682420034FC97 /* LVApplicationShaderUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVApplicationShaderUtils.m; sourceTree = "<group>"; };
+		A99B81231C3A4CF70034FC97 /* Simple.vertsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Simple.vertsh; sourceTree = "<group>"; };
+		A99B81251C3A4D0A0034FC97 /* Simple.fragsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Simple.fragsh; sourceTree = "<group>"; };
+		A99B81301C3A63400034FC97 /* CC3Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Foundation.h; sourceTree = "<group>"; };
+		A99B81311C3A63400034FC97 /* CC3Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Foundation.m; sourceTree = "<group>"; };
+		A99B81321C3A63400034FC97 /* CC3GLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3GLMatrix.h; sourceTree = "<group>"; };
+		A99B81331C3A63400034FC97 /* CC3GLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3GLMatrix.m; sourceTree = "<group>"; };
+		A99B81341C3A63400034FC97 /* CC3Kazmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CC3Kazmath.c; sourceTree = "<group>"; };
+		A99B81351C3A63400034FC97 /* CC3Kazmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Kazmath.h; sourceTree = "<group>"; };
+		A99B81361C3A63400034FC97 /* CC3Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Logging.h; sourceTree = "<group>"; };
+		A99B81371C3A63400034FC97 /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
+		A99B81381C3A63400034FC97 /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
+		A99B81391C3A63400034FC97 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A99B811C1C3502280034FC97 /* QuartzCore.framework in Frameworks */,
+				A99B81171C3500F20034FC97 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +111,9 @@
 		A99B80D71C3500BA0034FC97 = {
 			isa = PBXGroup;
 			children = (
+				A99B812F1C3A63400034FC97 /* Cocos3DMathLib */,
+				A99B811B1C3502280034FC97 /* QuartzCore.framework */,
+				A99B81161C3500F20034FC97 /* OpenGLES.framework */,
 				A99B80E21C3500BA0034FC97 /* OpenGLES_Study */,
 				A99B80FC1C3500BA0034FC97 /* OpenGLES_StudyTests */,
 				A99B81071C3500BA0034FC97 /* OpenGLES_StudyUITests */,
@@ -101,6 +134,10 @@
 		A99B80E21C3500BA0034FC97 /* OpenGLES_Study */ = {
 			isa = PBXGroup;
 			children = (
+				A99B811D1C3682420034FC97 /* LVApplicationShaderUtils.h */,
+				A99B811E1C3682420034FC97 /* LVApplicationShaderUtils.m */,
+				A99B81181C3502090034FC97 /* OpenGLView.h */,
+				A99B81191C3502090034FC97 /* OpenGLView.m */,
 				A99B80E61C3500BA0034FC97 /* AppDelegate.h */,
 				A99B80E71C3500BA0034FC97 /* AppDelegate.m */,
 				A99B80E91C3500BA0034FC97 /* ViewController.h */,
@@ -110,6 +147,8 @@
 				A99B80F11C3500BA0034FC97 /* LaunchScreen.storyboard */,
 				A99B80F41C3500BA0034FC97 /* Info.plist */,
 				A99B80E31C3500BA0034FC97 /* Supporting Files */,
+				A99B81231C3A4CF70034FC97 /* Simple.vertsh */,
+				A99B81251C3A4D0A0034FC97 /* Simple.fragsh */,
 			);
 			path = OpenGLES_Study;
 			sourceTree = "<group>";
@@ -138,6 +177,23 @@
 				A99B810A1C3500BA0034FC97 /* Info.plist */,
 			);
 			path = OpenGLES_StudyUITests;
+			sourceTree = "<group>";
+		};
+		A99B812F1C3A63400034FC97 /* Cocos3DMathLib */ = {
+			isa = PBXGroup;
+			children = (
+				A99B81301C3A63400034FC97 /* CC3Foundation.h */,
+				A99B81311C3A63400034FC97 /* CC3Foundation.m */,
+				A99B81321C3A63400034FC97 /* CC3GLMatrix.h */,
+				A99B81331C3A63400034FC97 /* CC3GLMatrix.m */,
+				A99B81341C3A63400034FC97 /* CC3Kazmath.c */,
+				A99B81351C3A63400034FC97 /* CC3Kazmath.h */,
+				A99B81361C3A63400034FC97 /* CC3Logging.h */,
+				A99B81371C3A63400034FC97 /* CC3Math.h */,
+				A99B81381C3A63400034FC97 /* CC3Math.m */,
+				A99B81391C3A63400034FC97 /* ccTypes.h */,
+			);
+			path = Cocos3DMathLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +300,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99B80F31C3500BA0034FC97 /* LaunchScreen.storyboard in Resources */,
+				A99B81241C3A4CF70034FC97 /* Simple.vertsh in Resources */,
+				A99B81261C3A4D0A0034FC97 /* Simple.fragsh in Resources */,
 				A99B80F01C3500BA0034FC97 /* Assets.xcassets in Resources */,
 				A99B80EE1C3500BA0034FC97 /* Main.storyboard in Resources */,
 			);
@@ -272,7 +330,13 @@
 			files = (
 				A99B80EB1C3500BA0034FC97 /* ViewController.m in Sources */,
 				A99B80E81C3500BA0034FC97 /* AppDelegate.m in Sources */,
+				A99B813A1C3A63400034FC97 /* CC3Foundation.m in Sources */,
+				A99B813D1C3A63400034FC97 /* CC3Math.m in Sources */,
 				A99B80E51C3500BA0034FC97 /* main.m in Sources */,
+				A99B813B1C3A63400034FC97 /* CC3GLMatrix.m in Sources */,
+				A99B811A1C3502090034FC97 /* OpenGLView.m in Sources */,
+				A99B813C1C3A63400034FC97 /* CC3Kazmath.c in Sources */,
+				A99B811F1C3682420034FC97 /* LVApplicationShaderUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +560,7 @@
 				A99B810F1C3500BA0034FC97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A99B81101C3500BA0034FC97 /* Build configuration list for PBXNativeTarget "OpenGLES_StudyTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +569,7 @@
 				A99B81121C3500BA0034FC97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A99B81131C3500BA0034FC97 /* Build configuration list for PBXNativeTarget "OpenGLES_StudyUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +578,7 @@
 				A99B81151C3500BA0034FC97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
